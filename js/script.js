@@ -41,7 +41,7 @@ const zeroaEsquerda = (num) => {
 }
 
 const tempoRestante = () => {
-    const dataEvento = new Date ('2022-09-01 08:00:00')
+    const dataEvento = new Date ('2022-12-31 00:00:00')
     const hoje = Date.now()
     return Math.floor((dataEvento - hoje) / 1000)
 }
